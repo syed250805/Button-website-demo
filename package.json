@@ -1,0 +1,23 @@
+{
+  "name": "mahalaxmi-button-centre-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write .oxlintrc.json package.json vite.config.js index.html README.md \"src/**/*.{js,jsx,css}\"",
+    "format:check": "prettier --check .oxlintrc.json package.json vite.config.js index.html README.md \"src/**/*.{js,jsx,css}\""
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "prettier": "^3.10.1",
+    "vite": "^5.4.11"
+  }
+}
